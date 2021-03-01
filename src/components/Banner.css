@@ -1,0 +1,34 @@
+.banner {
+  background-color: #0a51a3;
+  padding: 10vh;
+  color: white;
+}
+
+.banner__contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__contain > button {
+  background: #00a449;
+  border-radius: 5px;
+  width: 175px;
+  height: 45px;
+  color: white;
+  outline: none;
+}
+.banner__contain > h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+.banner__contain > p {
+  font-size: 1rem;
+  margin-bottom: 1.1rem;
+}
+@media (max-width: 768px) {
+  .banner__contain > h2 {
+    text-align: center;
+  }
+}

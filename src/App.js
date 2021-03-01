@@ -4,6 +4,7 @@ import HeroBg from './assets/images/HeroBg.svg';
 import DashboardBanner from './components/DashboardBanner';
 import Categories from './components/Categoreis';
 import WhyTutor from './components/WhyTutor';
+import Banner from './components/Banner';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <DashboardBanner />
       <Categories />
       <WhyTutor />
+      <Banner />
     </div>
   );
 }

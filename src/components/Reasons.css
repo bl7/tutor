@@ -1,0 +1,28 @@
+.reasons {
+  flex: 0.5;
+}
+.reasons__contain {
+  display: flex;
+  align-items: center;
+}
+.reasons__contain > img {
+  object-fit: contain;
+  width: 40px;
+}
+.reasons__text > h3 {
+  font-size: 1.3rem;
+}
+.reasons__text > p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.reasons__text {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .reasons {
+    margin: 10px 0;
+  }
+}
