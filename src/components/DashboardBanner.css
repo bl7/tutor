@@ -1,0 +1,23 @@
+.dashboardBanner {
+  display: grid;
+  place-content: center;
+}
+.dashboardBanner__text {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.dashboardBanner__images {
+  display: flex;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.dashboardBanner__images::-webkit-scrollbar {
+  display: none;
+}
+.dashboardBanner__image {
+  width: 160px;
+  height: 80px;
+  margin: 0 20px;
+}

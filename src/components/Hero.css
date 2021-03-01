@@ -1,0 +1,41 @@
+.hero {
+  border: 1px solid #818181;
+}
+.hero__contain {
+  background: linear-gradient(
+    177.56deg,
+    rgba(12, 23, 36, 0) 2.05%,
+    rgba(12, 23, 36, 0.58) 48.51%,
+    #0c1724 96.98%
+  );
+  padding: 20vh 0;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.hero__contain > h1 {
+  font-size: 2rem;
+}
+.hero__searchBar {
+  display: flex;
+  align-items: center;
+}
+.hero__searchBar > input {
+  width: 492px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 0 10px;
+  outline: none;
+}
+.hero__searchBar > button {
+  width: 119px;
+  height: 55px;
+  background: #00a449;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.hero__contain > p {
+  font-size: 1.2rem;
+}

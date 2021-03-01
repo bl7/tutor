@@ -1,0 +1,73 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar__top {
+  background-color: #0c1724;
+  color: #00a449;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 5rem;
+}
+.navBar__login {
+  display: flex;
+  align-items: center;
+  margin: 0 3rem;
+}
+.navBar__login > img {
+  margin: 0 5px;
+}
+.navBar__button {
+  width: 100px;
+  height: 32px;
+  background: #00a449;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  color: white;
+  text-decoration: none;
+}
+.navBar__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+}
+.navBar__logo {
+  display: flex;
+  align-items: center;
+}
+.navBar__logo > img {
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  width: 40px;
+}
+.navBar__logo > p {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.navBar__navs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3rem;
+}
+.navBar__nav {
+  display: flex;
+  align-items: center;
+  margin: 0 2rem;
+}
+.navBar__nav > img {
+  margin: 0 5px;
+}
+
+.navBar__search {
+  background-color: #00a449;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+}
