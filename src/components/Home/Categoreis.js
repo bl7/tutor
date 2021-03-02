@@ -1,10 +1,10 @@
 import React from 'react';
 import CatCard from './CatCard';
-import cat1 from '../assets/images/categoriesFirst.jpg';
-import cat2 from '../assets/images/categoriesSecond.jpg';
-import cat3 from '../assets/images/categoriesThird.jpg';
-import cat4 from '../assets/images/categoriesFourth.jpg';
-import cat5 from '../assets/images/categoriesFifth.jpg';
+import cat1 from '../../assets/images/categoriesFirst.jpg';
+import cat2 from '../../assets/images/categoriesSecond.jpg';
+import cat3 from '../../assets/images/categoriesThird.jpg';
+import cat4 from '../../assets/images/categoriesFourth.jpg';
+import cat5 from '../../assets/images/categoriesFifth.jpg';
 import './Categories.css';
 
 const Categories = () => {

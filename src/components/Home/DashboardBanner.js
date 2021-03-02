@@ -1,9 +1,9 @@
-import Image4 from '../assets/images/image4.jpg';
-import Image5 from '../assets/images/image5.jpg';
-import Image6 from '../assets/images/image6.jpg';
-import Image7 from '../assets/images/image7.jpg';
-import Image8 from '../assets/images/image8.jpg';
-import Image9 from '../assets/images/image9.jpg';
+import Image4 from '../../assets/images/image4.jpg';
+import Image5 from '../../assets/images/image5.jpg';
+import Image6 from '../../assets/images/image6.jpg';
+import Image7 from '../../assets/images/image7.jpg';
+import Image8 from '../../assets/images/image8.jpg';
+import Image9 from '../../assets/images/image9.jpg';
 import './DashboardBanner.css';
 const DashboardBanner = () => {
   return (

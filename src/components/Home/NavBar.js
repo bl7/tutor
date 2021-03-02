@@ -1,9 +1,9 @@
 import React from 'react';
-import TutorLogo from '../assets/images/Tutor.svg';
-import GradCapLogo from '../assets/images/GradCap.svg';
-import BoardLogo from '../assets/images/Board.svg';
-import SearchLogo from '../assets/images/Search.svg';
-import ArrowDownLogo from '../assets/images/ArrowDown.svg';
+import TutorLogo from '../../assets/images/Tutor.svg';
+import GradCapLogo from '../../assets/images/GradCap.svg';
+import BoardLogo from '../../assets/images/Board.svg';
+import SearchLogo from '../../assets/images/Search.svg';
+import ArrowDownLogo from '../../assets/images/ArrowDown.svg';
 // import { Link } from 'react-router-dom';
 import './NavBar.css';
 

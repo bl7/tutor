@@ -1,9 +1,9 @@
 import React from 'react';
 import Reasons from './Reasons';
-import speed from '../assets/images/speed.svg';
-import video from '../assets/images/video.svg';
-import tools from '../assets/images/tools.svg';
-import book from '../assets/images/book.svg';
+import speed from '../../assets/images/speed.svg';
+import video from '../../assets/images/video.svg';
+import tools from '../../assets/images/tools.svg';
+import book from '../../assets/images/book.svg';
 import './WhyTutor.css';
 import { Card } from 'antd';
 const WhyTutor = () => {

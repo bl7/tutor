@@ -1,0 +1,46 @@
+.confirm {
+  background-color: #f5f5f5;
+  padding: 20vh;
+  /* display: grid; */
+  /* place-content: center; */
+}
+.confirm__contain {
+  padding: 10vh 10vw;
+  width: 60vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.confirm__contain > p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 2vh;
+}
+.confirm__contain > h2 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  margin-bottom: 5vh;
+}
+.confirm__contain > button {
+  display: grid;
+  place-content: center;
+  height: 45px;
+  width: 339px;
+  border-radius: 5px;
+  background-color: #00a449;
+  color: white;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
