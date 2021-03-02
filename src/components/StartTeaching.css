@@ -1,0 +1,55 @@
+.startTeaching {
+  padding: 10vh 15vw;
+}
+.startTeaching__contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startTeaching__contain > img {
+  object-fit: contain;
+  border-radius: 12px;
+}
+.startTeaching__desc {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 2rem;
+}
+
+.startTeaching__desc > button {
+  height: 45px;
+  width: 242px;
+
+  border-radius: 5px;
+  background-color: #00a449;
+  color: white;
+}
+
+.startTeaching__desc > h2 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+
+  color: #0a51a3;
+}
+
+.startTeaching__desc > p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5b6065;
+}
+
+@media (max-width: 768px) {
+  .startTeaching__contain {
+    flex-direction: column;
+  }
+  .startTeaching__desc {
+    align-items: center;
+  }
+}

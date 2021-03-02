@@ -8,6 +8,7 @@ import Banner from './components/Banner';
 
 import './App.css';
 import Footer from './components/Footer';
+import StartTeaching from './components/StartTeaching';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Categories />
       <WhyTutor />
       <Banner />
+      <StartTeaching />
       <Footer />
     </div>
   );
