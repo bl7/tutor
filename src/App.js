@@ -7,6 +7,7 @@ import WhyTutor from './components/WhyTutor';
 import Banner from './components/Banner';
 
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Categories />
       <WhyTutor />
       <Banner />
+      <Footer />
     </div>
   );
 }
