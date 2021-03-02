@@ -1,12 +1,13 @@
 .confirm {
   background-color: #f5f5f5;
-  padding: 20vh;
+  padding: 16vh 15vw;
   /* display: grid; */
   /* place-content: center; */
 }
 .confirm__contain {
-  padding: 10vh 10vw;
+  padding: 10vh 5vw;
   width: 60vw;
+  margin: 0 auto;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -43,4 +44,18 @@
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .confirm {
+    padding: 0;
+  }
+  .confirm__contain {
+    padding: 10vh 10vw;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
