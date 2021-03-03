@@ -123,5 +123,6 @@
   }
   .navBar__top {
     padding: 1.5rem 0;
+    justify-content: flex-end;
   }
 }
