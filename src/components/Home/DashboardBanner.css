@@ -9,9 +9,8 @@
 }
 .dashboardBanner__images {
   display: flex;
-  overflow-x: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  flex-wrap: nowrap;
+  overflow: scroll;
 }
 .dashboardBanner__images::-webkit-scrollbar {
   display: none;
