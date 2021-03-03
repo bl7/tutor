@@ -29,8 +29,8 @@
 }
 .navBar__bottom {
   display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 5rem;
+  justify-content: space-around;
+  padding: 1.5rem 3.5rem;
 }
 .navBar__logo {
   display: flex;
@@ -58,7 +58,7 @@
 .navBar__nav {
   display: flex;
   align-items: center;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 .navBar__nav > img {
   margin: 0 5px;
@@ -104,15 +104,15 @@
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  /* background-color: #00a449; */
-}
 .navBar__hamburger {
   display: none;
   visibility: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+  .navBar__bottom {
+    justify-content: space-between;
+  }
   .navBar__navsBig {
     display: none;
     visibility: hidden;
