@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import TutorLogo from '../../assets/images/Tutor.svg';
 import GradCapLogo from '../../assets/images/GradCap.svg';
 import BoardLogo from '../../assets/images/Board.svg';
 import SearchLogo from '../../assets/images/Search.svg';
 import ArrowDownLogo from '../../assets/images/ArrowDown.svg';
 import { MenuOutlined } from '@ant-design/icons';
+import { Drawer, Button } from 'antd';
+
 import './NavBar.css';
 
 const NavBar = () => {
+  const [visible, setVisible] = useState(false);
+
+  const showDrawer = () => {
+    setVisible(true);
+  };
+
+  const onClose = () => {
+    setVisible(false);
+  };
   return (
     <div className="navBar">
       <div className="navBar__top">
@@ -39,8 +50,6 @@ const NavBar = () => {
               </div>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
               </div>
             </div>
             <div class="dropdown">
@@ -50,8 +59,6 @@ const NavBar = () => {
               </div>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
               </div>
             </div>
             <div class="dropdown">
@@ -61,8 +68,6 @@ const NavBar = () => {
               </div>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
               </div>
             </div>
             <div class="dropdown">
@@ -72,17 +77,41 @@ const NavBar = () => {
               </div>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
               </div>
             </div>
             <img src={SearchLogo} alt="" className="navBar__search" />
           </div>
-          <div className="navBar__hamburger">
+          <Button
+            className="navBar__hamburger"
+            type="primary"
+            onClick={showDrawer}
+          >
             <MenuOutlined />
-          </div>
+          </Button>
         </div>
       </div>
+      <Drawer
+        placement="right"
+        closable={false}
+        onClose={onClose}
+        visible={visible}
+        onClick={onClose}
+      >
+        <h2>Online Classes</h2>
+        <hr />
+        <a href="#">Link 1</a>
+        <br />
+        <h2>Tuition</h2>
+        <hr />
+        <a href="#">Link 1</a>
+        <br /> <h2>Coaching</h2>
+        <hr />
+        <a href="#">Link 1</a>
+        <br /> <h2>Courses</h2>
+        <hr />
+        <a href="#">Link 1</a>
+        <br />
+      </Drawer>
     </div>
   );
 };
